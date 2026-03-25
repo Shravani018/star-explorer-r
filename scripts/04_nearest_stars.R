@@ -46,7 +46,7 @@ p <- ggplot(nearest, aes(x = reorder(label, -dist_ly), y = dist_ly)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
   labs(
     title    = "Our 20 Nearest Stellar Neighbours",
-    subtitle = "Distance in light years — bar color reflects star temperature",
+    subtitle = "Distance in light years (bar color reflects star temperature)",
     x        = NULL,
     y        = "Distance (light years)"
   ) +
