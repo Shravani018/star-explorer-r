@@ -1,5 +1,11 @@
 # 🌟 star-explorer-r
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-R-5B8CFF" />
+  <img src="https://img.shields.io/badge/Dataset-HYG_v4.1-A855F7" />
+  <img src="https://img.shields.io/badge/Visuals-ggplot2-F59E0B" />
+</p>
+
 An astronomical data visualization project built in R, exploring ~120,000 stars from the HYG Star Database.
 
 ---
@@ -19,15 +25,15 @@ A 4-script R pipeline that transforms raw star catalog data into visualizations,
 | `03_distance_magnitude.R` | `distance_magnitude.png` | Apparent magnitude vs. distance scatter plot |
 | `04_nearest_stars.R` | `nearest_stars.png` | Horizontal bar chart of the 20 nearest stellar neighbours |
 
-**Hertzsprung-Russell Diagram** - 96,198 stars plotted by temperature vs. luminosity, revealing the main sequence, red giants, and white dwarfs.
+> **Hertzsprung-Russell Diagram** - 96,198 stars plotted by temperature vs. luminosity, revealing the main sequence, red giants, and white dwarfs.
 
-**Stars by Spectral Class** -  K-type stars dominate this magnitude-limited catalog; O-type stars are extremely rare.
+> **Stars by Spectral Class** -  K-type stars dominate this magnitude-limited catalog; O-type stars are extremely rare.
 
-**Full Sky Star Density Map** - 41,149 stars brighter than magnitude 8, showing the Milky Way's galactic plane as a bright band.
+> **Full Sky Star Density Map** - 41,149 stars brighter than magnitude 8, showing the Milky Way's galactic plane as a bright band.
 
-**Star Brightness vs Distance** - Demonstrates the inverse-square law, with scatter revealing intrinsically luminous distant stars.
+> **Star Brightness vs Distance** - Demonstrates the inverse-square law, with scatter revealing intrinsically luminous distant stars.
 
-**Our 20 Nearest Stellar Neighbours** - Proxima Centauri leads at 4.23 ly; bar color encodes stellar temperature.
+> **Our 20 Nearest Stellar Neighbours** - Proxima Centauri leads at 4.23 ly; bar color encodes stellar temperature.
 
 ---
 
