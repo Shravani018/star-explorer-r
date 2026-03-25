@@ -36,6 +36,6 @@ A 4-script R pipeline that transforms raw star catalog data into visualizations,
 **HYG Star Database v4.1** - a compiled catalog merging the Hipparcos, Yale Bright Star, and Gliese/Jahreiß catalogs.
 
 - Source: [astronexus/HYG-Database](https://github.com/astronexus/HYG-Database)
-- File: `dataset/hygdata_v41.csv`
+- [Data](https://github.com/astronexus/HYG-Database/blob/main/hyg/CURRENT/hygdata_v41.csv)
 
 
