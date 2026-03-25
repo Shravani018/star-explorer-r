@@ -33,7 +33,7 @@ sky <- ggplot(stars, aes(x = ra_deg, y = dec)) +
     limits = c(-90, 90),
     breaks = seq(-90, 90, 30)) +
   labs(
-    title    = "The Milky Way — Full Sky Star Density Map",
+    title    = "The Milky Way: Full Sky Star Density Map",
     subtitle = paste(nrow(stars), "stars brighter than magnitude 8"),
     x        = "Right Ascension",
     y        = "Declination" ) +
