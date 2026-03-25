@@ -59,7 +59,7 @@ hr <- ggplot(stars, aes(x = ci, y = absmag)) +
            color = "#aabfff", size = 3,   fontface = "italic") +
   labs(
     title    = "Hertzsprung-Russell Diagram",
-    subtitle = paste(nrow(stars), "stars — temperature vs luminosity"),
+    subtitle = paste(nrow(stars), "stars: temperature vs luminosity"),
     x        = "B-V Color Index  (hot → cool)",
     y        = "Absolute Magnitude  (bright ↑)") +
   theme_minimal(base_size = 12) +
