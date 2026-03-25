@@ -41,7 +41,7 @@ p <- ggplot(stars, aes(x = dist, y = mag)) +
   scale_y_reverse() +
   labs(
     title    = "Star Brightness vs Distance",
-    subtitle = "Closer stars appear brighter — but not always",
+    subtitle = "Closer stars appear brighter (but not always)",
     x        = "Distance (parsecs)",
     y        = "Apparent Magnitude (bright ↑)") +
   theme_minimal(base_size = 12) +
