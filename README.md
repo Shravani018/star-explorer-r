@@ -1,6 +1,6 @@
 # 🌟 star-explorer-r
 
-> An astronomical data visualization project built in R, exploring ~120,000 stars from the HYG Star Database.
+An astronomical data visualization project built in R, exploring ~120,000 stars from the HYG Star Database.
 
 ---
 
