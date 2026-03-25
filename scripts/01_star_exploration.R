@@ -94,7 +94,6 @@ bar <- ggplot(color_counts, aes(x = spectral_group, y = count, fill = spectral_g
   scale_y_continuous(labels = scales::comma) +
   labs(
     title    = "Stars by Spectral Class",
-    subtitle = "M-type red dwarfs dominate the galaxy",
     x        = "Spectral Class",
     y        = "Number of Stars") +
   theme_minimal(base_size = 12) +
