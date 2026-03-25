@@ -2,13 +2,10 @@
 #  Script 02: Milky Way Density Heatmap
 # ============================================================
 options(repos = c(CRAN = "https://packagemanager.posit.co/cran/__linux__/jammy/latest"))
-
 if (!requireNamespace("ggplot2", quietly = TRUE)) install.packages("ggplot2")
 if (!requireNamespace("dplyr",   quietly = TRUE)) install.packages("dplyr")
-
 library(ggplot2)
 library(dplyr)
-
 stars <- read.csv("dataset/hygdata_v41.csv", stringsAsFactors = FALSE)
 
 stars <- stars %>%
